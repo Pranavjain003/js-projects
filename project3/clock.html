@@ -11,6 +11,10 @@
         background-color: #212121;
         color: #fff;
       }
+      #banner{
+        font-size: 50px;
+        text-decoration: underline;
+      }
       .center {
         display: flex;
         height: 100vh;
@@ -20,10 +24,11 @@
       }
       #clock {
         font-size: 40px;
-        background-color: orange;
-        padding: 20px 50px;
+        background-color: red;
+        padding: 50px 70px;
         margin-top: 10px;
-        border-radius: 10px;
+        border-radius: 50%;
+        border: 8px solid black
       }
     </style>
   </head>
@@ -35,7 +40,7 @@
       >
     </nav>
     <div class="center">
-      <div id="banner"><span>Your local time</span></div>
+      <div id="banner"><span>Your local time & date</span></div>
       <div id="clock"></div>
     </div>
     <script src="clock.js"></script>
